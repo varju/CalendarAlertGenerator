@@ -15,6 +15,8 @@ return %orig;
 	%log;
 	%orig;
 
+	NSLog(@"CalendarAlertGenerator: creating a calendar alert - in");
+
 	EKEventStore *eventStore = [[EKEventStore alloc] init];
 	EKEvent *event  = [EKEvent eventWithEventStore:eventStore];
 	NSString *title = [NSString stringWithFormat:@"Test Alert %d", debugEventNum++];
@@ -34,6 +36,8 @@ return %orig;
 
 	NSError *err;
 	[eventStore saveEvent:event span:EKSpanThisEvent error:&err];       
+
+	NSLog(@"CalendarAlertGenerator: creating a calendar alert - out");
 }
 
 %end
