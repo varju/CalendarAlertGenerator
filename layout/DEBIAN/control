@@ -1,5 +1,5 @@
-Package: com.yourcompany.faketweak
-Name: FakeTweak
+Package: ca.varju.calendaralertgenerator
+Name: CalendarAlertGenerator
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
