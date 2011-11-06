@@ -6,6 +6,7 @@ all clean package install::
 else
 
 THEOS_DEVICE_IP=iphone
+#THEOS_DEVICE_IP=ipad
 
 TWEAK_NAME = CalendarAlertGenerator
 CalendarAlertGenerator_OBJC_FILES = CalendarAlertGenerator.xm

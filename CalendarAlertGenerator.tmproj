@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Makefile</string>
+	<string>CalendarAlertGenerator.xm</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -26,19 +26,43 @@
 		</dict>
 		<dict>
 			<key>filename</key>
-			<string>CalendarAlertGenerator.xm</string>
+			<string>Makefile</string>
+			<key>lastUsed</key>
+			<date>2011-10-23T19:05:02Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
-			<string>Makefile</string>
+			<string>CalendarAlertGenerator.xm</string>
 			<key>lastUsed</key>
-			<date>2011-10-23T17:55:05Z</date>
+			<date>2011-10-23T19:05:02Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>README.md</string>
+			<key>lastUsed</key>
+			<date>2011-10-23T18:46:29Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
+		<key>CalendarAlertGenerator.xm</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>90</integer>
+				<key>line</key>
+				<integer>56</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>6</integer>
+		</dict>
 		<key>Makefile</key>
 		<dict>
 			<key>caret</key>
@@ -47,6 +71,20 @@
 				<integer>0</integer>
 				<key>line</key>
 				<integer>17</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>README.md</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>1</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -72,10 +110,12 @@
 	<array>
 		<string>layout/DEBIAN/control</string>
 		<string>Makefile</string>
+		<string>CalendarAlertGenerator.xm</string>
+		<string>README.md</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{745, 397}, {1459, 1013}}</string>
+	<string>{{779, 393}, {1459, 1013}}</string>
 </dict>
 </plist>

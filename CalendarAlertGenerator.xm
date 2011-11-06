@@ -38,6 +38,23 @@ return %orig;
 	[eventStore saveEvent:event span:EKSpanThisEvent error:&err];       
 
 	NSLog(@"CalendarAlertGenerator: creating a calendar alert - out");
+
+
+	
+	
+	NSPredicate *predicate = [eventStore predicateForEventsWithStartDate:event.startDate endDate:event.endDate calendars:nil];
+	NSArray *events = [eventStore eventsMatchingPredicate:predicate];
+	NSLog(@"CalendarAlertGenerator: matching events are: %@", events);
+	
+	id eventID = nil;
+	for (id object in events) {
+		EKEvent *eventObj = (EKEvent *)object;
+		NSLog(@"CalendarAlertGenerator: identifier %@ for %@", [eventObj eventIdentifier], eventObj);
+		eventID = [eventObj eventIdentifier];
+	}
+
+	id loadedEvent = [eventStore eventWithIdentifier:eventID];	
+	NSLog(@"CalendarAlertGenerator: loadedEvent for eventID %@ is %@", eventID, loadedEvent);
 }
 
 %end
